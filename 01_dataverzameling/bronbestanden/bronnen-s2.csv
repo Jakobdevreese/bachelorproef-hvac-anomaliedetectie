@@ -1,0 +1,62 @@
+id,func_dp_nr,func_dp_naam,func_systeem,gbs_naam,object-id_gbs,opmerking
+1,1,totaal warmtegebruik warm,warmtepomp(en),40.02 STERRE S2 - Energieteller 2.Totaal energieverbruik warm,826e99bf-6fb0-501c-9237-dcdc5fa8464a,
+2,2,totaal debiet,warmtepomp(en),40.02 STERRE S2 - Energieteller 2.Totaal debiet,eb0a5745-bdc5-5607-b565-0bd94ec4bfc0,
+3,3,status,warmtepomp(en),COMP heatpump,90572f3e-d1d7-58d0-8f4b-6154171d2570,sturing warmtepomp 1 (0-100)
+4,3,status,warmtepomp(en),COMP heatpump,a9883b68-3ff7-50a1-b07e-49e97597bd8a,sturing warmtepomp 2 (0-100)
+5,4,temperatuur vertrek,warmtepomp(en),40.02 STERRE S2 - Warmteproduktie.Warmtepompen.Primair uittrede - Temperatuur,56b5a2ca-4127-57a0-9274-cb7cdaf99cd4,
+6,5,gevraagde temperatuur,warmtepomp(en),40.02 STERRE S2 - Warmteproduktie.Warmtepompen.Calculated Setpoint Boiler sequencer,d23133a8-1dcb-59a3-8620-7ff10fa32299,
+7,6,temperatuur retour,warmtepomp(en),40.02 STERRE S2 - Warmteproduktie.Warmtepompen.Primair intrede - Temperatuur,a38f5737-4a4b-552c-ad6b-9b9b191dccb9,
+8,7,status pomp,warmtepomp(en),40.02 STERRE S2 - Warmteproduktie.Buffervat pomp - Status,ca405a86-19ed-55f7-8a71-e46be2540af8,
+9,8,temperatuur vertrek,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Primair WW - Vertrekwater - Temperatuur,efcb4d1b-11b4-584d-9f6f-07158c22967c,
+10,9,gevraagde temperatuur,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Berekend setpunt verwarming,91a87e5e-7256-505b-aed5-1d61b2e9daf6,
+11,10,status,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Ketels.Ketel 1 - Isoleerklep - Status,f28e5a2c-aca4-5bf2-a4fe-38b2c8879b98,isoleerklep bij open werkt ketel
+12,10,status,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Ketels.Ketel 2 - Isoleerklep - Status,b731760f-6b04-57f1-8c70-4f3ba793766a,isoleerklep bij open werkt ketel
+13,11,temperatuur retour,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Primair WW - Retourwater - Temperatuur,1d2b9fb9-755e-5b40-9332-727f9b3c2d78,
+14,12,status pomp,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Ketels.Ketel 1 - Isoleerklep - Status,f28e5a2c-aca4-5bf2-a4fe-38b2c8879b98,isoleerklep bij open draait pomp ketel
+15,12,status pomp,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Ketels.Ketel 2 - Isoleerklep - Status,b731760f-6b04-57f1-8c70-4f3ba793766a,isoleerklep bij open draait pomp ketel
+16,13,totaal warmtegebruik warm injectie,gasketel(s),40.02 STERRE S2 - Energieteller 1.Totaal energieverbruik warm,cc1880be-418b-5d10-90ae-c3d4df1e6b5f,
+17,14,totaal debiet injectie,gasketel(s),40.02 STERRE S2 - Energieteller 1.Totaal debiet,a076a8ad-f68c-5a99-81f9-d0b28c6a2d2b,
+18,15,stand klep injectie,gasketel(s),40.02 STERRE S2 - Warmteproduktie.Isoleerklep collector - Status,8b56c073-3f87-56ed-a599-c85a2c91132e,werkt omgekeerd bij open is injectie gesloten
+19,16,totaal warmtegebruik warm,collector,40.02 STERRE S2 - Energieteller 2.Totaal energieverbruik warm,826e99bf-6fb0-501c-9237-dcdc5fa8464a,optelsom wp en gasketels
+20,16,totaal warmtegebruik warm,collector,40.02 STERRE S2 - Energieteller 1.Totaal energieverbruik warm,cc1880be-418b-5d10-90ae-c3d4df1e6b5f,optelsom wp en gasketels
+21,17,totaal debiet,collector,40.02 STERRE S2 - Energieteller 2.Totaal debiet,eb0a5745-bdc5-5607-b565-0bd94ec4bfc0,optelsom wp en gasketels
+22,17,totaal debiet,collector,40.02 STERRE S2 - Energieteller 1.Totaal debiet,a076a8ad-f68c-5a99-81f9-d0b28c6a2d2b,optelsom wp en gasketels
+23,18,temperatuur vertrek,collector,40.02 STERRE S2 - Warmteproduktie.Secundair WW - Vetrek - Temperatuur,ef8df623-fd80-572b-8f0c-950f43aa9ae2,
+24,19,temperatuur retour,collector,40.02 STERRE S2 - Warmteproduktie.Secundair WW - Retourwater - Temperatuur,370c83f7-f567-5c34-abd4-6202aede15f3,
+25,20,status pomp,collector,40.02 STERRE S2 - Kring 01 - Radiatoren.Pomp A - Status,ff5e22e1-a715-50d3-9b96-e4d95cade3e4,
+26,20,status pomp,collector,40.02 STERRE S2 - Kring 02 - Radiatoren.Pomp A - Status,a2103f65-1727-557b-b2d4-945e37db383d,
+27,20,status pomp,collector,40.02 STERRE S2 - Kring 03 - Luchtgroepen.Pomp A - Status,264c6da7-0d42-5df4-9eb4-8291c917c53f,
+28,21,gevraagde temperatuur pulsielucht,luchtgroep 1,PEG_LAB_ - WSP temp.inblaaslucht,707c8a27-c1fa-5363-81a3-a34afa597130,PEG 2
+29,22,temperatuur pulsielucht,luchtgroep 1,PEG_LAB_ - Temp.inblaaslucht,58e84fab-26ea-5672-a4c2-09073d36a430,PEG 2
+30,23,temperatuur extractielucht,luchtgroep 1,PEG_LAB_ - Temp.extractielucht,5bb46d82-7160-581f-92b3-e77461bb8a6d,PEG 2
+31,24,druk of debiet pulsiekanaal,luchtgroep 1,PEG_LAB_ - Druk filter verselucht,1b42fff9-06b8-5f85-ac77-d959404ac458,filterdruk verse lucht PEG 2
+32,25,druk of debiet extractiekanaal,luchtgroep 1,PEG_LAB_ - Druk filter extractielucht,4770eb07-5da1-5d3a-a421-a86710ff9f53,filterdruk extractie PEG 2
+33,26,temperatuur verse lucht,luchtgroep 1,PEG_LAB_ - Temp.verselucht,3c0b1fe7-fac8-5eeb-af1c-c4dcb5bd2f48,PEG 2
+34,27,sturing pulsieventilator,luchtgroep 1,PEG_LAB_ - Status IG,afd1834a-2fb4-540c-88a8-ea7446ce00cf,Status on of off PEG 2
+35,28,sturing extractieventilator,luchtgroep 1,PEG_LAB_ - Status EG,5c3bb768-7eef-5a0d-947b-699ad2f40256,Status on of off PEG 2
+36,29,stand klep verwarmingsbatterij,luchtgroep 1,PEG_LAB_ - Rgl.ventiel verw.batterij,9b706598-7fa1-5f7a-b122-037644e03feb,PEG 2
+37,30,temperatuur vertrek verwarmingsbatterij,luchtgroep 1,40.02 STERRE S2 - Kring 03 - Luchtgroepen.Vertrekwater - Temperatuur,51c05ef8-bc5a-541b-aaa8-8b0a31511eb5,
+38,31,temperatuur retour verwarmingsbatterij,luchtgroep 1,40.02 STERRE S2 - Kring 03 - Luchtgroepen.Retourwater - Temperatuur,4529a28d-5ef0-5103-afbc-d2946bdb980a,
+39,32,gevraagde temperatuur pulsielucht,luchtgroep 2,40.02 STE S2 - VEN_PEG11.WSP Temp.inblaas,7e2d8135-df87-5b1f-8bac-6595870fa2a6,PEG 11
+40,33,temperatuur pulsielucht,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Temp.inblaas,15c9cc00-a6ef-569e-90b9-c287b038d0c8,PEG 11
+41,34,temperatuur extractielucht,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Temp.extractie,9ab9152a-41b2-5a22-ac83-751f22264ae8,PEG 11
+42,35,Druk of debiet pulsiekanaal,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Debiet inblaas,60ec5e06-3140-53d0-8beb-79b448d0d982,PEG 11
+43,36,druk of debiet extractiekanaal,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Debiet extractie,75780562-6d4d-53ab-8b6b-2e279e95a7a3,PEG 11
+44,37,temperatuur verse lucht,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Temp.verse lucht,d394be11-9f37-57e5-ac1e-e9a6c2b447dc,PEG 11
+45,38,sturing pulsieventilator,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Rgl.frequentie PG,3db9d823-db03-5753-9b80-284ca5e9d365,PEG 11
+46,39,sturing extractieventilator,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Rgl.frequentie EG,8e6f47ac-4bb6-521a-8d23-b5ebbef1dc98,PEG 11
+47,40,stand klep verwarmingsbatterij,luchtgroep 2,40.02 STE S2 - VEN_PEG11.Rgl.ventiel VVB,c6e20454-849a-5446-b40d-519bbb18c90e,PEG 11
+48,41,temperatuur vertrek verwarmingsbatterij,luchtgroep 2,40.02 STERRE S2 - Kring 03 - Luchtgroepen.Vertrekwater - Temperatuur,51c05ef8-bc5a-541b-aaa8-8b0a31511eb5,
+49,42,temperatuur retour verwarmingsbatterij,luchtgroep 2,40.02 STERRE S2 - Kring 03 - Luchtgroepen.Retourwater - Temperatuur,4529a28d-5ef0-5103-afbc-d2946bdb980a,
+50,43,gevraagde ruimtetemperatuur,zone 1,40.02 STERRE S2 - Kring 01 - Radiatoren.Effectieve bezetting,94a942c3-dea5-5b48-9728-3968574b90ee,aan/uit 21/18
+51,44,ruimtetemperatuur,zone 1,40.02 STERRE S2 - Kring 01 - Radiatoren.Ruimte - Temperatuur,db9cf9e7-c959-5245-ba3a-dbfc4bc01c82,
+52,44,ruimtetemperatuur,zone 1,40.02 STERRE S2 - Kring 02 - Radiatoren.Ruimte - TemperatuurTemperatuur,f8bb5b1d-5a1f-5ec2-8651-5597a171a4bc,
+53,45,ruimteco2,zone 1,,,GEEN WAARDE
+54,46,stand klep verwarming,zone 1,40.02 STERRE S2 - Kring 01 - Radiatoren.Mengklep - Sturing,ca2dc725-3663-5de3-a04b-6c99ecfbddb8,
+55,46,stand klep verwarming,zone 1,40.02 STERRE S2 - Kring 02 - Radiatoren.Mengklep - Sturing,8ec02e49-2bee-5e23-a6f2-1f1e6d0610cf,
+56,47,gevraagde ruimtetemperatuur,zone 2,,,GEEN WAARDE
+57,48,ruimtetemperatuur,zone 2,40.02 STE S2 - VEN_PEG11.Temp.extractie,9ab9152a-41b2-5a22-ac83-751f22264ae8,PEG 11
+58,49,ruimteco2,zone 2,40.02 STE S2 - VEN_PEG11.CO2 ruimte,7a6f7629-b77c-55b6-904d-94d3ab87bce1,
+59,50,stand klep verwarming,zone 2,40.02 STE S2 - VEN_PEG11.Rgl.ventiel VVB,c6e20454-849a-5446-b40d-519bbb18c90e,PEG 11
+60,50,stand klep verwarming,zone 2,40.02 STERRE S2 - Kring 01 - Radiatoren.Mengklep - Sturing,ca2dc725-3663-5de3-a04b-6c99ecfbddb8,
+61,50,stand klep verwarming,zone 2,40.02 STERRE S2 - Kring 02 - Radiatoren.Mengklep - Sturing,8ec02e49-2bee-5e23-a6f2-1f1e6d0610cf,

@@ -1,0 +1,1 @@
+01_dataverzameling/raw/aws_10min.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,105 @@
+{
+  "gebouw": "dunant1",
+  "seed": 99,
+  "generated": "2026-05-15",
+  "test_split": 0.15,
+  "faults": [
+    {
+      "id": 1,
+      "name": "Warmtepomp acuut falen",
+      "start_idx": 163,
+      "end_idx": 169,
+      "start_ts": "2026-04-06 07:50:00+00:00",
+      "end_ts": "2026-04-06 08:40:00+00:00",
+      "duration_min": 60,
+      "sensors": [
+        "f_1",
+        "f_2",
+        "f_3",
+        "f_7",
+        "f_4",
+        "f_6"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Warmtepomp prestatiedaling",
+      "start_idx": 192,
+      "end_idx": 204,
+      "start_ts": "2026-04-06 12:40:00+00:00",
+      "end_ts": "2026-04-06 14:30:00+00:00",
+      "duration_min": 120,
+      "sensors": [
+        "f_4",
+        "f_6"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "CO2-sensor drift",
+      "start_idx": 32,
+      "end_idx": 41,
+      "start_ts": "2026-04-05 10:00:00+00:00",
+      "end_ts": "2026-04-05 11:20:00+00:00",
+      "duration_min": 90,
+      "sensors": [
+        "f_45"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vastgelopen verwarmingsklep",
+      "start_idx": 145,
+      "end_idx": 151,
+      "start_ts": "2026-04-06 04:50:00+00:00",
+      "end_ts": "2026-04-06 05:40:00+00:00",
+      "duration_min": 60,
+      "sensors": [
+        "f_29",
+        "f_30",
+        "f_31"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Aanvoertemperatuur te hoog",
+      "start_idx": 419,
+      "end_idx": 428,
+      "start_ts": "2026-04-08 02:30:00+00:00",
+      "end_ts": "2026-04-08 03:50:00+00:00",
+      "duration_min": 90,
+      "sensors": [
+        "f_4",
+        "f_30",
+        "f_6"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Open raam/deur",
+      "start_idx": 635,
+      "end_idx": 641,
+      "start_ts": "2026-04-09 14:30:00+00:00",
+      "end_ts": "2026-04-09 15:20:00+00:00",
+      "duration_min": 60,
+      "sensors": [
+        "f_44",
+        "f_45"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Temperatuursensor bevroren",
+      "start_idx": 652,
+      "end_idx": 664,
+      "start_ts": "2026-04-09 17:20:00+00:00",
+      "end_ts": "2026-04-09 19:10:00+00:00",
+      "duration_min": 120,
+      "sensors": [
+        "f_48"
+      ]
+    }
+  ],
+  "total_anomaly_timesteps": 60,
+  "anomaly_rate": 0.08670520231213873
+}
